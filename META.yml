@@ -1,0 +1,16 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         CGI-Application-GDGraph-lines_ap
+version:      0.01
+version_from: lines_ap.pm
+installdirs:  site
+requires:
+    CGI::Application:              
+    CGI::Session:                  
+    GD:                            
+    GD::Graph:                     
+    GD::Graph::Data:               
+    HTML::Template:                
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.17
